@@ -1,11 +1,4 @@
 
-# app_production_v7b.py
-# Streamlit app using AgGrid for smooth inline editing (no per-keystroke reruns)
-# UI trimmed to 4 actions: Commit Changes, Download PDF, Download CSV, Download Excel
-# Column order fixed: S.No, Date, Description, Amount, Type, Site Name, WorkNotes, (then Item, Bank, ...)
-# Hide system fields (e.g., SourceFile) from the editor
-# Highlight ONLY the Type column (Cr=green, Dr=red)
-# CSV/XLSX parsing with bank detection; IST-stamped, wrapped multi-page PDF
 
 import streamlit as st
 from io import BytesIO, StringIO
