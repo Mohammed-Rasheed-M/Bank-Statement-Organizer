@@ -1,6 +1,6 @@
 streamlit
 pandas
-st-aggrid
+streamlit-aggrid
 reportlab
 openpyxl
 xlrd
