@@ -1,0 +1,6 @@
+streamlit
+pandas
+st-aggrid
+reportlab
+openpyxl
+xlrd
